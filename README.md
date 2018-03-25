@@ -21,4 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* Shortcuts/compromises
+    a) Basic CSS is implemented.
+    b) Page param is set at state level not at the URL level. Observed a disadvantage :) 
+    c) Chose rails so i could easily push it to heroku
+
 * ...
