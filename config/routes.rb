@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  mount Lastfm::API => '/'
+  root to: 'landing#index'
+  mount Lastfm::API => '/api'
+
+  # Hijack other routes
+  get '/*path', to: 'landing#index'
 end
