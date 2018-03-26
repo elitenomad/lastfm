@@ -19,7 +19,7 @@ function RepoGridForArtists ({ artists }) {
                                 />
                             </li>
                             <li>@{name}</li>
-                            <li>{ url }</li>
+                            <li><a href={ url } target='_blank'>{url}</a></li>
                             <li>
                                 <Link className='button' to={tracks_url_per_artist}>Top Tracks of {name}</Link>
                             </li>
