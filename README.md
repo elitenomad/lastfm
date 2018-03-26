@@ -6,7 +6,7 @@ frontend (Used React to build front-end components)
 This README would normally document whatever steps are necessary to get the
 application up and running on Localhost.
 
-* Deployment Heroku:
+## Deployment Heroku:
 
 
     Deployed the Rails 5.1 and React app to heroku and the app can be accessed at
@@ -14,7 +14,7 @@ application up and running on Localhost.
         
 Things you may want to cover:
 
-* Pre-requisites:
+## Pre-requisites:
 
 
      Homebrew: 
@@ -29,14 +29,14 @@ Things you may want to cover:
      bundler:
         gem install bundler
 
-* Ruby version
+## Ruby version
 
 
     2.4.1
 
-* System dependencies
+## System dependencies
 
-* Configuration
+## Configuration
 
 
     Create a .env file in the project directory.
@@ -45,29 +45,29 @@ Things you may want to cover:
         LASTFM_API_KEY=YOUR_API_KEY
         LASTFM_API_SECRET=YOUR_API_SECRET
 
-* Database creation
+## Database creation
 
 
     bundle exec rake db:create
     bundle exec rake db:migrate
 
-* Database initialization
+## Database initialization
 
 
     No seed file used or required.
     
-* How to run the test suite
+## How to run the test suite
 
 
     Rails specs: bundle exec rspec spec/
     JS spec: yarn test
 
-* Services (job queues, cache servers, search engines, etc.)
+## Services (job queues, cache servers, search engines, etc.)
 
 
     No queues or delayed jobs used.
 
-* Deployment instructions
+## Deployment instructions
 
 
     (At the moment i disabled public access on heroku, only i can deploy to heroku to the above mentioned domain)
@@ -79,7 +79,7 @@ Things you may want to cover:
     heroku config:set LASTFM_API_KEY=YOUR_API_KEY
     heroku config:set LASTFM_API_SECRET=YOUR_API_SECRET
 
-* Shortcuts/compromises
+## Shortcuts/compromises
 
 
     Basic CSS is implemented. Did'nt work to make the app responsive.
@@ -87,5 +87,3 @@ Things you may want to cover:
     reset param value :) 
     Chose rails so i could easily push it to Heroku
     Pagination and Auto-complete are Publicly available react components. I imported and resused them in this app.
-
-* ...
