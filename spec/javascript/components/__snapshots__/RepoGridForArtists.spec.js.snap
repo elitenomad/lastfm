@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoGridForArtists Component is expected to render correctly 1`] = `
+<ul
+  className="popular-list"
+>
+  <li
+    className="popular-item"
+    key="David Bowie"
+  >
+    <div
+      className="popular-rank"
+    >
+      #
+      1
+    </div>
+    <ul
+      className="space-list-items"
+    >
+      <li>
+        <img
+          alt="Avatar for David Bowie"
+          className="avatar"
+          src="https://lastfm-img2.akamaized.net/i/u/174s/aa9dfbdec965d751cd1fa4ec5a309299.png"
+        />
+      </li>
+      <li>
+        @
+        David Bowie
+      </li>
+      <li>
+        https://www.last.fm/music/David+Bowie
+      </li>
+      <li>
+        <Link
+          className="button"
+          replace={false}
+          to="/artists/David+Bowie/tracks"
+        >
+          Top Tracks of 
+          David Bowie
+        </Link>
+      </li>
+    </ul>
+  </li>
+</ul>
+`;

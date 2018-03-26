@@ -7,7 +7,7 @@ const COUNTRIES = require('../utils/countries');
 class SelectCountry extends React.Component {
 
     render(){
-        const { selectedCountry, onSelect, onFilter } = this.props;
+        const { selectedCountry, onSelect } = this.props;
         return(
             <div className='countries'>
                 <Autocomplete

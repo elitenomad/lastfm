@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoGridForAlbums Component is expected to render correctly 1`] = `
+<ul
+  className="popular-list"
+>
+  <li
+    className="popular-item"
+    key="Believe"
+  >
+    <div
+      className="popular-rank"
+    >
+      #
+      1
+    </div>
+    <ul
+      className="space-list-items"
+    >
+      <li>
+        <img
+          alt="Avatar for Cher"
+          className="avatar"
+          src="https://lastfm-img2.akamaized.net/i/u/174s/b0c2311a9af7f0edbc8b99450944ca1b.png"
+        />
+      </li>
+      <li>
+        Believe
+      </li>
+      <li>
+        https://www.last.fm/music/Cher/Believe
+      </li>
+      <li>
+        @
+        Cher
+      </li>
+      <li>
+        @
+        https://www.last.fm/music/Cher
+      </li>
+    </ul>
+  </li>
+</ul>
+`;

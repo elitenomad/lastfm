@@ -34,10 +34,6 @@ class PopularArtists extends React.Component {
         });
     };
 
-    filterCountry = (country) => {
-        return country;
-    };
-
     handlePageClick = (event) => {
         this.updateCountry(this.state.selectedCountry, (event.selected + 1))
     };
@@ -47,7 +43,7 @@ class PopularArtists extends React.Component {
         const { selectedCountry, artists } = this.state;
 
         return (
-            <div>
+            <div id="popular-artists">
                 <SelectCountry selectedCountry={selectedCountry} onSelect={this.updateCountry} />
 
                 <div id='react-paginate'>

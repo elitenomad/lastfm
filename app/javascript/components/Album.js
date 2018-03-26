@@ -42,7 +42,7 @@ class Album extends React.Component {
 
     render() {
         return(
-            <div>
+            <div id='popular-albums'>
                 <div id='react-paginate'>
                     <ReactPaginate previousLabel={"Prev"}
                                    nextLabel={"Next"}
