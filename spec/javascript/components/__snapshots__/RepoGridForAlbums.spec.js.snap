@@ -5,7 +5,7 @@ exports[`RepoGridForAlbums Component is expected to render correctly 1`] = `
   className="popular-list"
 >
   <li
-    className="popular-item"
+    className="popular-album"
     key="Believe"
   >
     <div
@@ -25,18 +25,29 @@ exports[`RepoGridForAlbums Component is expected to render correctly 1`] = `
         />
       </li>
       <li>
+        Album: 
         Believe
       </li>
       <li>
-        https://www.last.fm/music/Cher/Believe
+        <marquee>
+          <a
+            href="https://www.last.fm/music/Cher/Believe"
+          >
+            https://www.last.fm/music/Cher/Believe
+          </a>
+        </marquee>
       </li>
       <li>
-        @
+        Artist: @
         Cher
       </li>
       <li>
-        @
-        https://www.last.fm/music/Cher
+        Website: 
+        <a
+          href="https://www.last.fm/music/Cher"
+        >
+          https://www.last.fm/music/Cher
+        </a>
       </li>
     </ul>
   </li>

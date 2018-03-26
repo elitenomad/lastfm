@@ -29,7 +29,12 @@ exports[`RepoGridForArtists Component is expected to render correctly 1`] = `
         David Bowie
       </li>
       <li>
-        https://www.last.fm/music/David+Bowie
+        <a
+          href="https://www.last.fm/music/David+Bowie"
+          target="_blank"
+        >
+          https://www.last.fm/music/David+Bowie
+        </a>
       </li>
       <li>
         <Link

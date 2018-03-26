@@ -18,6 +18,7 @@ class SelectCountry extends React.Component {
                             {item.label}
                         </div>
                     }
+                    shouldItemRender={ (e, value) => { if(e.value.toLowerCase().indexOf(value.toLowerCase()) >= 0){ return e.value } } }
                     value={selectedCountry}
                     onChange={(e) => onSelect(e.target.value) }
                     onSelect={(val) => onSelect(val)}
